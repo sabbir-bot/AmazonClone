@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: #e3e6e6;
+}
+.nav-bar{
+    background-color: #0f1111;
+    color:white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+.logo{
+    background-image: url(Amazon.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.navadd{
+   margin-left: 20px;
+}
+
+.border{
+    border : 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+.addicon{
+    display: flex;
+}
+.addi{
+    color: #cccccc;
+    font-size: 0.6rem;
+    margin-left: 18px;
+}
+.addii{
+    font-size: 0.7rem;
+    margin-left: 3px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width :1050px;
+    height: 40px;
+    margin-left: 20px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+    border-radius: 7px;
+}
+.allop{
+    background-color:#e6e6e6;
+    width: 50px;
+    text-align: center;
+    font-size: 0.6rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+/* .panelall:hover{
+    width: 45px;
+    height: 40px;
+    border : 2px solid white;
+} */
+}
+input{
+    width:100%;
+    border:none;
+}
+.saricon{
+    width: 45px;
+    background-color: rgb(255, 181, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.lang{
+    margin-left: 30px;
+    margin-top: 5px;
+    height: 40px;
+    width : 80px;
+    display: flex;
+    align-items: center;
+}
+.flag{
+    height:20px;
+    width: 25px;
+    background-image: url(BDflag.jpg);
+}
+.langsel{
+    height:10px;
+    width: 15px;
+    background-color: #0f1111;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3px;
+    border:none;
+}
+.BN{
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+
+.signin{
+    color: #cccccc;
+    font-size: 0.6rem;
+}
+.lists{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.lissel{
+    height:10px;
+    width: 15px;
+    background-color: #0f1111;
+    color: white;
+    margin-top: 7px;
+    margin-left: 3px;
+    border:none;
+}
+.navcart i{
+    font-size: 30px;
+}
+.navcart{
+    margin-left: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+.panelall{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.panelall i{
+    font-size: 1rem;
+}
+.panelops {
+    display: flex;
+    font-size: 0.7rem;
+    width: 94%;
+}
+.panelops p{
+    margin-left: 18px;
+}
+
+
+
+.herosec{
+    background-image: url(Kichecnim.jpg);
+    width: 1500px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 130px;
+    animation: hero 8s step-start  2s infinite;
+}
+@keyframes hero {
+    25%{
+        background-image: url(Book.jpg);
+    }
+    50%{
+        background-image: url(newtoy.jpg);
+    }
+    75%{
+        background-image: url(beautypro.jpg);
+    }
+}
+
+.boxtop{
+    height: 420px;
+    background-color:white;
+    width : 22%;
+    margin-top: 250px;
+}
+.shopsec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 420px;
+    background-color: white;
+    width : 22%;
+    margin-top: 30px;
+}
+.shopsec2{
+    width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:130px;
+    margin-top:60px;
+
+}
+.boximg{
+    height:370px;
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 15px;
+
+}
+.see{
+    margin-top: 20px;
+    color:blue;
+    font-size: 0.7rem;
+}
+.see:hover{
+    color: crimson;
+}
+.box1{
+    height: 85%;
+    background-image: url(school.jpg);
+    background-size: cover;
+}
+.box2{
+    height: 85%;
+    background-image: url(PCs.jpg);
+    background-size: cover;
+}
+.box3{
+    height: 85%;
+    background-image: url(watch.jpg);
+    background-size: cover;
+}
+.box4{
+    height: 85%;
+    background-image: url(beauty.jpg);
+    background-size: cover;
+}
+.box5{
+    height: 85%;
+    background-image: url(Toys.jpg);
+    background-size: cover;
+}
+.box6{
+    height: 85%;
+    background-image: url(Office.jpg);
+    background-size: cover;
+}
+.box7{
+    height: 85%;
+    background-image: url(Bed.jpg);
+    background-size: cover;
+}
+.box8{
+    height: 85%;
+    background-image: url(Tshirt.jpg);
+    background-size: cover;
+}
+
+
+.footpanel1{
+    height: 45px;
+    width: 100%;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.65rem;
+}
+.footpanel2{
+    height: 400px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+ul p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.footpanel3{
+    height:70px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+.footlogo{
+    background-image: url(Amazon3.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.footpanel4{
+    background-color: #0f1111;
+    height:70px;
+    color:#cccccc;
+    font-size: 0.6rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 10px;
+}
+.pages a{
+    margin-left: 5px;
+}
+
