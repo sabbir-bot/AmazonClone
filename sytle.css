@@ -183,7 +183,8 @@ input{
     width: 1500px;
     height: 600px;
     background-size: cover;
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: auto;
     animation: hero 8s step-start  2s infinite;
 }
 @keyframes hero {
@@ -218,8 +219,9 @@ input{
     width: 1500px;
     display: flex;
     justify-content: space-evenly;
-    margin-left:130px;
-    margin-top:60px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
 
 }
 .boximg{
